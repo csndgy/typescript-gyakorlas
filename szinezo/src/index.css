@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.colorbtn{
+ width: 100%;
+ aspect-ratio: 1;
+ border: 1px solid black;
+
+}
+
+.maingrid{
+  max-width: 500px;
+  width: 100%;
+  height: 500px;
+  aspect-ratio: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modal{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(119, 47, 196, 0.359);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
